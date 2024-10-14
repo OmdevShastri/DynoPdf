@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="EN">
+<head>
+<title>PDF Template</title>
+</head>
+<body>
+    <h1 th:text="'Invoice for: ' + ${name}"></h1>
+    <p th:text="'Address: ' + ${address}"></p>
+    <ul>
+        <li th:each="item : ${items}" th:text="${item}"></li>
+    </ul>
+    <p th:text="'Total Price: ' + ${totalPrice}"></p>
+</body>
+</html>
