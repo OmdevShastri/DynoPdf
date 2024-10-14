@@ -20,7 +20,7 @@ import java.util.stream.Stream;
 @Service
 public class PdfService {
 
-    private final String pdfStoragePath = "C:/Users/StarPort/Downloads";
+    private final String pdfStoragePath = "C:/Users/StarPort/Downloads/";
 
     public String generateInvoicePdf(InvoiceRequest request) throws Exception {
         String fileName = generateFileName(request);
