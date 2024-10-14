@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.omdevs</groupId>
-    <artifactId>WeatherO</artifactId>
+    <artifactId>DynoPdf</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>WeatherO</name>
-    <description>WeatherO</description>
+    <name>DynoPdf</name>
+    <description>DynoPdf</description>
     <url/>
     <licenses>
         <license/>
