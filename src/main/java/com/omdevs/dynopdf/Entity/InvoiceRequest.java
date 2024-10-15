@@ -1,4 +1,4 @@
-package com.omdevs.dynopdf;
+package com.omdevs.dynopdf.Entity;
 
 import lombok.Getter;
 import lombok.Setter;

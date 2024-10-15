@@ -1,9 +1,7 @@
-package com.omdevs.dynopdf;
+package com.omdevs.dynopdf.Entity;
 
 import lombok.Getter;
 import lombok.Setter;
-
-import java.util.List;
 
 @Setter
 @Getter
@@ -14,7 +12,7 @@ public class InvoiceItem {
     private double amount;
 
     // Getters and Setters
-    InvoiceItem(String name, String quantity, double rate, double amount) {
+    public InvoiceItem(String name, String quantity, double rate, double amount) {
         this.name = name;
         this.quantity = quantity;
         this.rate = rate;

@@ -1,6 +1,8 @@
 package com.omdevs.dynopdf;
 
-import com.omdevs.dynopdf.Services.PdfService;
+import com.omdevs.dynopdf.Entity.InvoiceItem;
+import com.omdevs.dynopdf.Entity.InvoiceRequest;
+import com.omdevs.dynopdf.services.PdfService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -30,6 +32,7 @@ public class PdfServiceTests {
 
         List<InvoiceItem> items = new ArrayList<>();
         items.add(new InvoiceItem("Product 1", "12 Nos", 123.00, 1476.00));
+        items.add(new InvoiceItem("Product 2", "120 Nos", 223.00, 476.00));
         request.setItems(items);
 
         String pdfPath = pdfService.generateInvoicePdf(request);

@@ -1,7 +1,7 @@
-package com.omdevs.dynopdf.Controller;
+package com.omdevs.dynopdf.controller;
 
-import com.omdevs.dynopdf.InvoiceRequest;
-import com.omdevs.dynopdf.Services.PdfService;
+import com.omdevs.dynopdf.Entity.InvoiceRequest;
+import com.omdevs.dynopdf.services.PdfService;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
